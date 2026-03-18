@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogue - Smoke Paradise</title>
+  <style>
+    body {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+      color: #333;
+    }
+     nav {
+      background-color: #fff;
+      padding: 15px 25px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-weight: 600;
+    }
+    nav a {
+      color: #2c3e50;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px 25px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .catalogue {
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .grille-catalogue {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .carte-produit {
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .carte-produit:hover {
+      transform: scale(1.05);
+    }
+
+    .carte-produit img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .carte-produit h4 {
+      margin: 10px 0 5px;
+      font-size: 16px;
+      color: #25D366;
+    }
+
+    .carte-produit p {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .btn-commande {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-commande:hover {
+      background-color: #1ebe5d;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+    <nav>
+    <a href="Index.html">ACCUEIL</a>
+    <a href="A propos.html">À PROPOS</a>
+    <a href="Catalogue.html">CATALOGUE</a>
+    <a href="Contact.html">CONTACT</a>
+  </nav>
+  <header>
+    <h1>Notre Catalogue</h1>
+  </header>
+  <div class="catalogue">
+    <p style="text-align: center; font-size: 18px; margin-top: 20px;">
+  Découvrez notre sélection exclusive de chichas électroniques et accessoires de qualité, soigneusement choisis pour satisfaire tous les styles et tous les budgets.
+</p>
+
+    <div class="grille-catalogue">
+      <!-- Produits 1 à 20 avec bouton Commander -->
+      <div class="carte-produit">
+        <img src="https://www.vapozoneshop.com/wp-content/uploads/2024/05/Tete-de-Chicha-Electronique-E-Hookah-rechargeable-Kamry-kit-chicha.jpg" alt="Chicha à carbon">
+        <h4>Chicha à carbon</h4>
+        <p>35 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Chicha%20à%20carbon" class="btn-commande" target="_blank">Commander</a>
+      </div>
+      <div class="carte-produit">
+        <img src="https://www.afrokingvap.com/cdn/shop/files/uwell-caliburn-a3-15w-pod-kit.jpg?v=1686584719" alt="Caliburn">
+        <h4>Caliburn</h4>
+        <p>15 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Caliburn" class="btn-commande" target="_blank">Commander</a>
+      </div>
+      <div class="carte-produit">
+        <img src="https://www.vapotank.com/wp-content/uploads/2021/11/Kit-Doric-20-Voopoo.jpg" alt="Doric">
+        <h4>Doric</h4>
+        <p>20 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Doric" class="btn-commande" target="_blank">Commander</a>
+      </div>
+      <div class="carte-produit">
+        <img src="https://media.taffe-elec.com/40312-home_default/kit-centaurus-m200-anniversary-lost-vape.jpg" alt="Vape Métal">
+        <h4>Vape Métal</h4>
+        <p>90 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROy_OxMaAvivFnQvk5aGiighRlCYxIXQvr-A&s" alt="Vape Métal">
+        <h4>Box fraise</h4>
+        <p>8 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD30mMZ-TQEjhjhEitgTiF9TV_hbo5uw5MxQ&s" alt="Vape Métal">
+        <h4>Wpuff</h4>
+        <p>5 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://m.media-amazon.com/images/I/71CSfpuhWAL.jpg" alt="Vape Métal">
+        <h4>X-space</h4>
+        <p>10 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://www.shisha-heaven.ch/wp-content/uploads/2024/03/elfbar-af5000-watermelon-ice-vape-kit-bis-5000-zuege.jpg" alt="Vape Métal">
+        <h4>Elfbar</h4>
+        <p>12 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://m.media-amazon.com/images/I/71aqdpG-hFL.jpg" alt="Vape Métal">
+        <h4>Passion Puff</h4>
+        <p>7 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://www.vapotank.com/wp-content/uploads/2022/01/Kit-jetable-Bubble-Gum-Ma-Petite-Vape.jpg" alt="Vape Métal">
+        <h4>Ma petite Vap</h4>
+        <p>9 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://www.youvape.fr/wp-content/uploads/2024/11/puff-4in1-baies-sauvages-elfbar.jpg" alt="Vape Métal">
+        <h4>Elfbar Nicotine</h4>
+        <p>15 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://cdn.electrocigarette.fr/28699-large_default/bloody-bull-energy-flerbar-puff-vape-pen-cigarette-jetable.jpg" alt="Vape Métal">
+        <h4>Flerbar</h4>
+        <p>10 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVeAxbCcWg8Nr8Od0tzwC2P_vPGonwqARWwA&s" alt="Vape Métal">
+        <h4>Justfog</h4>
+        <p>17 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://www.hqd-tech.co.uk/wp-content/uploads/2022/05/HQD-Super-Pro-Golden-Tobacco.jpg" alt="Vape Métal">
+        <h4>Golden Tabacco</h4>
+        <p>10 000FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://static.24hvape.com/wp-content/uploads/2024/04/13075629/24H_vape_Bang_Crown_Bar_18000_puff_00019.jpg" alt="Vape Métal">
+        <h4>Bang</h4>
+        <p>10 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://www.la-civette.fr/shop/16894-thickbox_default/nouvelle-cigarette-blu-20.jpg" alt="Vape Métal">
+        <h4>Blu 2.0</h4>
+        <p>12 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://fr.teesxvape.com/wp-content/uploads/2024/03/Grativape-Isnow-bar-16000-6.jpg" alt="Vape Métal">
+        <h4>Taste</h4>
+        <p>18 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLYT3Fe55w55qqMwcLrO2scFoohIAtdo1faw&s" alt="Vape Métal">
+        <h4>Univers</h4>
+        <p>20 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxBZaFkJAs_4BRTCYOYqX9Un8ehuDAZK0nCyE_V4oPYsRCOyFn14V3bNY9qqOU7mc9Uvc&usqp=CAU" alt="Vape Métal">
+        <h4>Bang night</h4>
+        <p>35 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPRKYwhRsZX0m0hxJmS8VES_3vUcPMB946fA&s" alt="Vape Métal">
+        <h4>Fuson</h4>
+        <p>40 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR38sAY8kVoLXmZd0n496vb2nWlFO-UkS4Olw&s" alt="Vape Métal">
+        <h4>Bic</h4>
+        <p>10 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt41VmUn0que60C_UiF1H6DKzYGP59-WjUTw&s" alt="Vape Métal">
+        <h4>Pulp wihte</h4>
+        <p>25 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://cdn.globalso.com/blongangvape/2312.jpg" alt="Vape Métal">
+        <h4>Zozo Bar</h4>
+        <p>50 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+       <div class="carte-produit">
+        <img src="https://cdn2.cigaretteelec.fr/cig/prod/5596/40120/pack-coolfire-z80-3-e-liquides-1-accu.jpg?scale.width=400&scale.height=400&canvas.width=400&canvas.height=400" alt="Vape Métal">
+        <h4>Monters </h4>
+        <p>80 000 FCFA</p>
+        <a href="https://wa.me/2290161631431?text=Commande%20Vape%20M%C3%A9tal" class="btn-commande" target="_blank">Commander</a>
+      </div>
+      
+  </div>
+
+  <!-- Pied de page -->
+  <footer>
+    Contact : <strong>+229 01 61 63 14 31</strong> | <strong>nombaalbouchra71@gmail.com</strong><br />
+    © 2025 Smoke Paradise – Tous droits réservés
+  </footer>
+</body>
+</html>

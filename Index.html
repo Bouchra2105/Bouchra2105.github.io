@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accueil - Smoke Paradise</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f5f8fc;
+      color: #2c3e50;
+      line-height: 1.65;
+      font-size: 16px;
+    }
+    nav {
+      background-color: #fff;
+      padding: 15px 25px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-weight: 600;
+    }
+    nav a {
+      color: #2c3e50;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    nav a:hover {
+      color: #2980b9;
+    }
+    header {
+      background-color: #34495e;
+      color: #fff;
+      padding: 3px 0;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    }
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 25px 60px;
+      background: #fff;
+      box-shadow: 0 0 18px rgba(0,0,0,0.07);
+      border-radius: 12px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #34495e;
+      border-bottom: 4px solid #2980b9;
+      display: inline-block;
+      padding-bottom: 8px;
+    }
+    p {
+      margin-bottom: 18px;
+    }
+
+    .grid-avantages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      margin-top: 20px;
+    }
+
+    .carte-avantage {
+      background: #ecf0f1;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 6px 15px rgba(41,128,185,0.12);
+      transition: transform 0.3s ease;
+    }
+    .carte-avantage:hover {
+      transform: translateY(-6px);
+    }
+    .carte-avantage .icone {
+      font-size: 36px;
+      color: #2980b9;
+      margin-bottom: 10px;
+    }
+    .carte-avantage h3 {
+      font-size: 18px;
+      color: #2471a3;
+      margin-bottom: 8px;
+    }
+    .carte-avantage p {
+      font-size: 14px;
+      color: #4d5661;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+    ul li::before {
+      content: "✔";
+      color: #2980b9;
+      position: absolute;
+      left: 0;
+    }
+
+    .btn-whatsapp {
+      display: block;
+      width: max-content;
+      margin: 30px auto 0;
+      background-color: #25D366;
+      color: #fff;
+      padding: 15px 35px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: background-color 0.3s;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+
+     footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px 25px ;
+      font-size: 14px;
+      margin-top: 0px;
+    }
+  </style>
+</head>
+<body>
+    <nav>
+    <a href="Index.html">ACCUEIL</a>
+    <a href="A propos.html">À PROPOS</a>
+    <a href="Catalogue.html">CATALOGUE</a>
+    <a href="Contact.html">CONTACT</a>
+  </nav>
+
+  <header>
+    SMOKE PARADISE
+  </header>
+
+  <main>
+    <section id="description">
+      <h2>Bienvenue chez Smoke Paradise</h2>
+      <p>Chez <strong>Smoke Paradise</strong>, nous vous offrons un véritable paradis de la chicha ! Que vous soyez amateur ou passionné, vous trouverez chez nous toutes les sortes de chichas : classiques, électroniques, modernes, de luxe, compactes ou encore design. Nous sélectionnons avec soin des modèles adaptés à tous les goûts et à tous les budgets. Qualité, style et performance sont au rendez-vous pour faire de chaque moment un pur instant de plaisir.</p>
+    </section>
+    <!-- Section À propos en bref -->
+<section id="apropos" style="background-color: #fff; padding: 30px 20px; margin-top: 60px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); max-width: 900px; margin-left: auto; margin-right: auto;">
+  <h2 style="text-align: center; color: #2c3e50;">À propos de Smoke Paradise</h2>
+  <p style="text-align: justify; font-size: 16px; line-height: 1.6; color: #333;">
+    <strong>Smoke Paradise</strong>, c'est bien plus qu'une simple boutique de chichas électroniques. Nous sommes une marque dédiée à offrir style, performance et qualité à tous les amateurs de vape. Notre mission ? Vous proposer les meilleures chichas électroniques modernes, livrées rapidement partout au Bénin, avec un service client à l’écoute. Que vous soyez novice ou expert, vous trouverez chez nous le produit parfait pour vivre une expérience unique.
+  </p>
+</section>
+    <section id="avantages">
+      <h2>Pourquoi nous choisir ?</h2>
+      <div class="grid-avantages">
+        <div class="carte-avantage">
+          <div class="icone">📦</div>
+          <h3>Large choix</h3>
+          <p>Chichas classiques, modernes, électroniques, et de luxe</p>
+        </div>
+        <div class="carte-avantage">
+          <div class="icone">🚚</div>
+          <h3>Livraison rapide</h3>
+          <p>Partout au Bénin en moins de 48h</p>
+        </div>
+        <div class="carte-avantage">
+          <div class="icone">📞</div>
+          <h3>Service client</h3>
+          <p>Assistance disponible 7j/7, réponse rapide garantie</p>
+        </div>
+        <div class="carte-avantage">
+          <div class="icone">🎯</div>
+          <h3>Produits originaux</h3>
+          <p>Designs uniques et qualité durable</p>
+        </div>
+        <div class="carte-avantage">
+          <div class="icone">💰</div>
+          <h3>Prix accessibles</h3>
+          <p>Des tarifs adaptés à tous les budgets</p>
+        </div>
+        <div class="carte-avantage">
+          <div class="icone">🔒</div>
+          <h3>Paiement sécurisé</h3>
+          <p>Vos transactions sont 100% protégées</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Nos services</h2>
+      <ul>
+        <li>Vente de chichas électroniques & accessoires</li>
+        <li>Livraison à domicile</li>
+        <li>Service après-vente et assistance technique</li>
+        <li>Commande en ligne via WhatsApp</li>
+      </ul>
+    </section>
+    <!-- Section Aperçu des Produits -->
+<section id="produits" style="margin-top: 50px;">
+  <h2 style="text-align: center;">Aperçu de nos produits</h2>
+  <div class="grid-avantages">
+    <div class="carte-avantage">
+      <img src="https://www.neovapo.com/9885-home_default/e-chicha-portable-hookah-air-fumytech.jpg" alt="Vape Design" style="width: 100%; border-radius: 10px; height: 160px; object-fit: cover; margin-bottom: 10px;">
+      <h3>Vape Design</h3>
+      <p>45 000 FCFA</p>
+    </div>
+    <div class="carte-avantage">
+      <img src="https://www.vapotank.com/wp-content/uploads/2021/11/Kit-Doric-20-Voopoo.jpg" alt="Doric" style="width: 100%; border-radius: 10px; height: 160px; object-fit: cover; margin-bottom: 10px;">
+      <h3>Doric</h3>
+      <p>20 000 FCFA</p>
+    </div>
+    <div class="carte-avantage">
+      <img src="https://www.afrokingvap.com/cdn/shop/files/uwell-caliburn-a3-15w-pod-kit.jpg?v=1686584719" alt="Caliburn" style="width: 100%; border-radius: 10px; height: 160px; object-fit: cover; margin-bottom: 10px;">
+      <h3>Caliburn</h3>
+      <p>15 000 FCFA</p>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 25px;">
+    <a href="Catalogue.html" target="_blank" 
+       style="background-color: #25D366; color: white; padding: 12px 30px; font-weight: bold; border-radius: 8px; text-decoration: none; font-size: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      📦 Voir tout le catalogue
+    </a>
+  </div>
+</section>
+
+
+    <a
+      class="btn-whatsapp"
+      href="https://wa.me/2290161631431?text=Bonjour%2C%20je%20souhaite%20passer%20commande%20chez%20Smoke%20Paradise"
+      target="_blank"
+    >
+      📲 Commander maintenant via WhatsApp
+    </a>
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    Contact : <strong>+229 01 61 63 14 31</strong> | <strong>nombaalbouchra71@gmail.com</strong><br />
+    © 2025 Smoke Paradise – Tous droits réservés
+  </footer>
+</body>
+</html>
